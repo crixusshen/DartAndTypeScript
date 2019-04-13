@@ -22,3 +22,19 @@ main(List<String> args) {
   Pair _reversePair = reversePair(new ArrayPair(3, 4));
   print(_reversePair.plus());
 }
+
+class Monster {
+  // 大量的功能实现
+}
+
+class Vampire extends Monster {
+  get bloodType => '0';
+}
+
+Map<String, Monster> monsters = {
+  'Frankenstein': new Monster(),
+  'Godzilla': new Monster(),
+  'Dracula': new Vampire()
+};
+
+Vampire vamp = monsters['Dracula'];

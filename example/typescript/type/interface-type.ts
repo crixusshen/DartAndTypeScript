@@ -28,3 +28,20 @@ const reversePair = (p: PairConstructor, first, second) => new p(first, second)
 
 const _reversePair = reversePair(ArrayPair, 3, 4)
 console.log(_reversePair.plus())
+
+class Monster {
+  // 大量的功能实现
+}
+
+class Vampire extends Monster {
+  get bloodType() {
+    return '0'
+  }
+}
+
+const monsters = new Map<string, Monster>()
+monsters.set('Frankenstein', new Monster())
+monsters.set('Godzilla', new Monster())
+monsters.set('Dracula', new Vampire())
+
+const vamp: Vampire = monsters['Dracula'];

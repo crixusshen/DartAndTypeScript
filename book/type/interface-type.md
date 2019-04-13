@@ -73,3 +73,48 @@ console.log(_reversePair.plus())
 但是如果我们省略了implements子句，则类型检查器将不知道ArrayPair是Pair的子类型。在这种情况下，类型检查器会对reversePair()的定义及使用发出警告。类似的警告信息也会出现在方法的调用处，因为方法的实际参数的类型是ArrayPair，而形式参数的类型是Pair。   
 
 implements子句中列出的每个接口都被认为是当前类的直接父接口。在上面的例子中，Pair是ArrayPair的直接父接口。此外，类的父类也被认为是类的直接父接口之一。   
+
+在值传递的过程中，只要两个类型之间存在父子关系，Dart就认为它们可以互相赋值。也就是说，不仅ArrayPair可以赋值给Pair(因为ArrayPair是Pair的子类型)，Pair也可以赋值给ArrayPair。看看下面的例子：   
+
+<!--sec data-title="Dart" data-id="section2" data-show=true ces-->
+```dart
+class Monster {
+  // 大量的功能实现
+}
+
+class Vampire extends Monster {
+  get bloodType => '0';
+}
+
+Map<String, Monster> monsters = {
+  'Frankenstein': new Monster(),
+  'Godzilla': new Monster(),
+  'Dracula': new Vampire()
+};
+
+Vampire vamp = monsters['Dracula'];
+```
+<!--endsec-->
+
+<!--sec data-title="TypeScript" data-id="section3" data-show=true ces-->
+```javascript
+class Monster {
+  // 大量的功能实现
+}
+
+class Vampire extends Monster {
+  get bloodType() {
+    return '0'
+  }
+}
+
+const monsters = new Map<string, Monster>()
+monsters.set('Frankenstein', new Monster())
+monsters.set('Godzilla', new Monster())
+monsters.set('Dracula', new Vampire())
+
+const vamp: Vampire = monsters['Dracula'];
+```
+<!--endsec-->
+
+上面的例子充分展示了互相赋值的概念，这有点类似其它语言中的`装箱`和`拆箱`概念，虽然monsters这个map内部只能存放Monster实例，但是我们却赋值了一个Vampire实例。相同地，我们从该map取值的时候理论上也应该Monster类型实例，但是我们却给他赋值了Vampire。这是一个非常典型的类型隐形向下转换的概念。    
