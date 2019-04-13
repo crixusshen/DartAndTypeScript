@@ -1,0 +1,11 @@
+{
+  "title": "",
+  "plugins": [
+      "splitter",
+      "sectionx"
+  ],
+  "discription": "",
+  "pluginsConfig": {},
+  "links": {},
+  "variables": {}
+}
