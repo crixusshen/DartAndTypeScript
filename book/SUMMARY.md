@@ -6,6 +6,7 @@
   * [实例变量](class/instance-variable.md)
   * [类变量](class/class-variable.md)
   * [final变量](class/final-variable.md)
+  * [相等操作符](class/equal.md)
 * [类型](type/README.md)
   * [可选类型](type/optional-type.md)
   * [函数类型](type/function-type.md)
