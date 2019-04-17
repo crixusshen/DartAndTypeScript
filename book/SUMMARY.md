@@ -9,6 +9,7 @@
   * [相等操作符](class/equal.md)
   * [父类](class/super-class.md)
   * [抽象类与抽象方法](class/abstract.md)
+  * [接口](class/interface.md)
 * [类型](type/README.md)
   * [可选类型](type/optional-type.md)
   * [函数类型](type/function-type.md)
