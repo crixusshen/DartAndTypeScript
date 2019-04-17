@@ -11,31 +11,33 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var Newer = /** @class */ (function () {
-    function Newer(x, y) {
-        this._x = x;
-        this._y = y;
+var S = /** @class */ (function () {
+    function S() {
     }
-    Newer.prototype.equals = function (obj) {
-        return this._x == obj._x && this._y == obj._y;
-    };
-    return Newer;
-}());
-var aNewer = new Newer(3, 4);
-var anotherNewer = new Newer(3, 4);
-console.log(aNewer == anotherNewer); // false
-console.log(aNewer.equals(anotherNewer)); // true
-var SSS = /** @class */ (function (_super) {
-    __extends(SSS, _super);
-    function SSS() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    Object.defineProperty(SSS.prototype, "_x", {
+    Object.defineProperty(S.prototype, "g", {
         get: function () {
-            return 1;
+            return 32;
         },
         enumerable: true,
         configurable: true
     });
-    return SSS;
-}(Newer));
+    Object.defineProperty(S.prototype, "s", {
+        set: function (x) {
+            this.v = 2;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    S.prototype.m = function (a, b) {
+        return 91;
+    };
+    S.f = 0;
+    return S;
+}());
+var C = /** @class */ (function (_super) {
+    __extends(C, _super);
+    function C() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return C;
+}(S));

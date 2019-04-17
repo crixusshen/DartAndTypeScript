@@ -7,6 +7,7 @@
   * [类变量](class/class-variable.md)
   * [final变量](class/final-variable.md)
   * [相等操作符](class/equal.md)
+  * [父类](class/super-class.md)
 * [类型](type/README.md)
   * [可选类型](type/optional-type.md)
   * [函数类型](type/function-type.md)

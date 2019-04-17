@@ -15,3 +15,9 @@ const aNewer = new Newer(3, 4)
 const anotherNewer = new Newer(3, 4)
 console.log(aNewer == anotherNewer)  // false
 console.log(aNewer.equals(anotherNewer))  // true
+
+class SSS extends Newer {
+  get _x() {
+    return 1;
+  }
+}
