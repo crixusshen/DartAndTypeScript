@@ -1,10 +1,28 @@
 # 教程简介
 
+> 本教程由东方证券研发6部大前端团队所著，如有错误，欢迎纠错
+
+### 学时评估
+
+| 学习对象 | 所需时间（小时） | 备注 | 
+| :------: | :------: | :------: |
+| 已掌握TypeScript和ECMAScript的前端工程师 | 4 | - |
+| 未掌握TypeScript的前端工程师 | 16 | 建议先掌握TypeScript |
+| 未掌握TypeScript和ECMAScript的前端工程师 | 24 | 建议先掌握ECMAScrip7/8/9 |
+| 已掌握Java或C#的后端工程师 | 8 | - |
+| 其它 | - | - |
+
+### 编写目的
+
+目前网上的Dart教程相对比较少，而且介绍的都比较入门，因此本教程编写的目的更加抓住语言特性本身来深入介绍，因此在学习本教程之前建议至少掌握一门编程语言，例如JavaScript、Java或C#。另外本教程将会结合Dart/TypeScript/C#对比的方式来编写教程中的示例和知识点，这对于掌握了类似语言的开发者而言，加强了理解和减少了学习成本。      
+
+### 语言介绍
+
 Dart是一门由Google开发并被批准为ECMA标准（[ECMA-408](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-408.pdf)）的基于类的可选类型化编程语言，最初的设计目标是为Web编程创造结构化但又富有灵活性的语言。目前Dart在业界的认识度并不高，社区规模也比较小，主要原因是Dart自身还在不断地发展、完善中。笔者也是通过Google正在研发中的跨平台移动端开源工具Flutter了解到Dart的，但这并不能阻止我们去学习这一门优秀的可选类型编程语言的热情。   
 
 ### 教程仓库
 
-[包含该教程和示例源代码](https://github.com/crixusshen/DartAndTypeScript)
+[包含教程MarkDown和教程中所涉及到的示例源代码](https://github.com/crixusshen/DartAndTypeScript)
 
 ### 哪些人群适合学习该教程
 
