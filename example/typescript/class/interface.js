@@ -6,8 +6,9 @@ var Clock = /** @class */ (function () {
     };
     return Clock;
 }());
-var instanceOfClock = function (props) {
-  return typeof props['setTime'] !== 'undefined';
-};
+var instanceOfClock = function (props) { return typeof props['currentTime'] !== 'undefined'; };
 var clock = new Clock();
 console.log(instanceOfClock(clock));
+var rhombus = {};
+rhombus.color = 'red';
+rhombus.sideLength = 10;
