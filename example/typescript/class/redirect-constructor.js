@@ -14,9 +14,9 @@ var PointRedirect = /** @class */ (function () {
     return PointRedirect;
 }());
 var point1 = new PointRedirect(1, 2);
-console.log("rho: " + point1.rho + " theta: " + point1.theta);
+console.log("rho: " + point1.rho + " theta: " + point1.theta); // rho: 1 theta: 2
 var _map = new Map();
 _map.set('a', 7);
 _map.set('b', 8);
 var point2 = new PointRedirect(_map);
-console.log("rho: " + point2.rho + " theta: " + point2.theta);
+console.log("rho: " + point2.rho + " theta: " + point2.theta); // rho: 10.63014581273465 theta: 0.7188299996216245
