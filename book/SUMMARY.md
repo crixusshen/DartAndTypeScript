@@ -15,6 +15,7 @@
   * [重定向构造函数](class/redirect-constructor.md)
   * [工厂构造函数](class/factory-constructor.md)
   * [单例构造函数](class/singleon-constructor.md)
+  * [常量构造函数](class/const-constructor.md)
 * [类型](type/README.md)
   * [可选类型](type/optional-type.md)
   * [函数类型](type/function-type.md)
