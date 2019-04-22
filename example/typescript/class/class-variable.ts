@@ -5,9 +5,9 @@ class Box {
   }
 }
 
-class Cat {}
-class DeadCat extends Cat {}
-class LiveCat extends Cat {
+class SuperCat {}
+class DeadCat extends SuperCat {}
+class LiveCat extends SuperCat {
   constructor() {
     super()
     console.log("I'm alive!")

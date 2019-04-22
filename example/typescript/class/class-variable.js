@@ -18,10 +18,10 @@ var Box = /** @class */ (function () {
     Box.numberOfInstances = 0;
     return Box;
 }());
-var Cat = /** @class */ (function () {
-    function Cat() {
+var SuperCat = /** @class */ (function () {
+    function SuperCat() {
     }
-    return Cat;
+    return SuperCat;
 }());
 var DeadCat = /** @class */ (function (_super) {
     __extends(DeadCat, _super);
@@ -29,7 +29,7 @@ var DeadCat = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return DeadCat;
-}(Cat));
+}(SuperCat));
 var LiveCat = /** @class */ (function (_super) {
     __extends(LiveCat, _super);
     function LiveCat() {
@@ -38,7 +38,7 @@ var LiveCat = /** @class */ (function (_super) {
         return _this;
     }
     return LiveCat;
-}(Cat));
+}(SuperCat));
 // ts中没有顶层变量的说法，因此这里会被执行
 var schrodingers = new LiveCat();
 schrodingers = new DeadCat();
