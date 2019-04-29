@@ -9,4 +9,4 @@ function fib(n) {
     }
     return sum(n);
 }
-console.log(fib(5)); // 5+4+3+2+1=15
+console.log(fib(5)); // 15
