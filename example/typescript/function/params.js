@@ -32,5 +32,5 @@ console.log(increment(2, 4)); // 6
 // console.log(increment()); // 运行时错误
 // console.log(increment(2, 3, 4));  // 运行时错误
 printCities('Beijing', { name2: 'Shanghai' });
-lookup('anything');
-lookup('anything', { ifMissing: function () { return __map['anything'] = 42; } });
+lookup('anything'); // 抛出错误
+lookup('anything', { ifMissing: function () { return __map['anything'] = 42; } }); // 42

@@ -27,6 +27,7 @@
   * [延迟加载](library/defferred.md)
 * [函数](function/README.md)
   * [参数](function/params.md)
+  * [函数体](function/body.md)
 * [类型](type/README.md)
   * [可选类型](type/optional-type.md)
   * [函数类型](type/function-type.md)
