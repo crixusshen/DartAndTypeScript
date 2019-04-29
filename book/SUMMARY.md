@@ -30,6 +30,7 @@
   * [函数体](function/body.md)
   * [函数声明](function/declaration.md)
   * [闭包](function/closure.md)
+  * [函数调用](function/call.md)
 * [类型](type/README.md)
   * [可选类型](type/optional-type.md)
   * [函数类型](type/function-type.md)
