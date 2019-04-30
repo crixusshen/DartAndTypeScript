@@ -32,6 +32,7 @@
   * [闭包](function/closure.md)
   * [函数调用](function/call.md)
   * [Function类](function/function-class.md)
+  * [生成器函数](function/generator.md)
 * [类型](type/README.md)
   * [可选类型](type/optional-type.md)
   * [函数类型](type/function-type.md)
