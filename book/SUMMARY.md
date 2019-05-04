@@ -37,3 +37,4 @@
   * [可选类型](type/optional-type.md)
   * [函数类型](type/function-type.md)
   * [接口类型](type/interface-type.md)
+  * [泛型](type/generics.md)
