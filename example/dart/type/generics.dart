@@ -26,9 +26,11 @@ T loggingIdentityExtend<T extends Lengthwise>(T arg) {
   return arg;
 }
 
+typedef Add<T> = T Function(T x, T y);
+
 class GenericNumber<T> {
   T zeroValue;
-  Function add; // dart的缺点之一，无法对Function类型进行约束
+  Add<T> add; // dart2开始支持 函数类型 语法特性
 }
 
 main(List<String> args) {
