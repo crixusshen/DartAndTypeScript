@@ -39,3 +39,4 @@
   * [接口类型](type/interface-type.md)
   * [函数类型](type/function-type.md)
   * [泛型](type/generics.md)
+  * [类型具体化](type/specific.md)
