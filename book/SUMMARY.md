@@ -40,3 +40,6 @@
   * [函数类型](type/function-type.md)
   * [泛型](type/generics.md)
   * [类型具体化](type/specific.md)
+* [异步](async/README.md)
+  * [Future](async/future.md)
+  * [Event-Loop](async/event-loop.md)

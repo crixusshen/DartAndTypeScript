@@ -2,6 +2,10 @@
 
 > 本教程由东方证券研发六部大前端团队所著，如有错误，欢迎纠错
 
+### 教程仓库
+
+[包含教程MarkDown和教程中所涉及到的示例源代码](https://github.com/crixusshen/DartAndTypeScript)
+
 ### 学时评估
 
 | 学习对象 | 投入 | 备注 | 
@@ -18,11 +22,7 @@
 
 ### 语言介绍
 
-Dart是一门由Google开发并被批准为ECMA标准（[ECMA-408](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-408.pdf)）的基于类的可选类型化编程语言，最初的设计目标是为Web编程创造结构化但又富有灵活性的语言。目前Dart在业界的认识度并不高，社区规模也比较小，主要原因是Dart自身还在不断地发展、完善中。笔者也是通过Google正在研发中的跨平台移动端开源工具Flutter了解到Dart的，但这并不能阻止我们去学习这一门优秀的可选类型编程语言的热情。   
-
-### 教程仓库
-
-[包含教程MarkDown和教程中所涉及到的示例源代码](https://github.com/crixusshen/DartAndTypeScript)
+Dart是一门由Google开发并被批准为ECMA标准（[ECMA-408](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-408.pdf)）的基于类的可选类型化编程语言，最初的设计目标是为Web编程创造结构化但又富有灵活性的语言。目前Dart在业界的认识度并不高，社区规模也比较小，主要原因是Dart自身还在不断地发展、完善中。笔者也是通过Google正在研发中的跨平台移动端开源工具Flutter了解到Dart的，但这并不能阻止我们去学习这一门优秀的可选类型编程语言的热情。    
 
 ### 哪些人群适合学习该教程
 
